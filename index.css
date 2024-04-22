@@ -2,13 +2,15 @@ body {
     background-color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30;
+    color: black;
 }
 
 .img {
     height: 500px;
     width: auto;
-    border-style: dashed;
+    border-style: dotted;
     padding: 5px;
+    border-radius: 20px;
 }
 .heading {
     font-family: 'Courier New', Courier, monospace;
