@@ -40,14 +40,14 @@ li {
   padding-left: 1em;
 }
 
-.img {
-    height: 500px;
-    width: auto;
-    border-style: dashed;
-    padding: 5px;
-    margin: 20px;
-    border-radius: 20px;
+img {
+    max-width: 90%;
+    max-height: 100%;
+    border-radius: 25px;
+    margin: 0px auto;
+    display: block;
 }
+
 .heading {
     font-size: 40px;
     font-weight: bold;
@@ -71,7 +71,7 @@ button.btn {
     border-radius: 4px;
     transition-duration: 0.4s;
     cursor: pointer;
-    display: flex;  
+    display: block;  
   }
 
 button:hover {
